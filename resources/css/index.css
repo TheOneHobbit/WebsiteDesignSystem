@@ -1,13 +1,34 @@
-.header {
-    height: 110px;
+* {
+    box-sizing: border-box;
+}
+
+body {
     background-color: #466995;
-    padding: 20px;
-    border-bottom: 1px solid #466995;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: space-around;
+    margin: 0px;
+}
+
+h1{
+    box-sizing: border-box;
+    color:rgba(0, 0, 0, 0.678);
+    font-family: monospace;
+    font-size: 21px;
+    text-align: left;
+    font-weight: 600;
+    overflow:fixed;
+    letter-spacing: 0.5em;
+    text-transform:uppercase;
     text-decoration: underline;
+    display: inline-block;
+    left: 12.5%;
+    right: 0%;
+    padding: 20px 50px;
+    padding-bottom: 30px;
+    position: relative;
+    top: 0%;
+    width: 75%;
+    background-image: -webkit-linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+    background-blend-mode:exclusion;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 100%;
 }
