@@ -1,13 +1,10 @@
-body {
-    background-color: #466995;
-    margin: 0px;
-}
+
 
 h1{
     box-sizing: border-box;
     color:rgba(0, 0, 0, 0.678);
     font-family: monospace;
-    font-size: 21px;
+    font-size:x-large;
     text-align: center;
     font-weight: 600;
     overflow:fixed;
@@ -27,4 +24,37 @@ h1{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 100%;
+}
+
+.container {
+    border: 2px solid #a2a2a6;
+    padding: 10px;
+    margin: 10px auto;
+}
+
+.blue {
+    background-color: rgb(18, 39, 161);
+    color:#fff;
+}
+
+.green {
+    color:#fff;
+    background-color: rgb(2, 103, 29);
+}
+
+.purple {
+    background-color:rgb(102, 51, 153);
+    color: #fff;
+}
+
+.yellow {
+    background-color: rgb(255, 255, 0);
+    color:#000;
+}
+.color-panel {
+    display: inline-block;
+    width: 32%;
+    text-align: center;
+    margin: 20px auto;
+    min-height: 100px;
 }
