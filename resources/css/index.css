@@ -1,4 +1,6 @@
-
+body {
+    margin: 0 20%;
+}
 
 h1{
     box-sizing: border-box;
@@ -7,7 +9,6 @@ h1{
     font-size:x-large;
     text-align: center;
     font-weight: 600;
-    overflow:fixed;
     letter-spacing: 0.5em;
     text-transform:uppercase;
     text-decoration: underline;
@@ -31,22 +32,18 @@ h1{
     padding: 10px;
     margin: 10px auto;
 }
-
 .blue {
     background-color: rgb(18, 39, 161);
     color:#fff;
 }
-
 .green {
     color:#fff;
     background-color: rgb(2, 103, 29);
 }
-
 .purple {
     background-color:rgb(102, 51, 153);
     color: #fff;
 }
-
 .yellow {
     background-color: rgb(255, 255, 0);
     color:#000;
@@ -57,4 +54,86 @@ h1{
     text-align: center;
     margin: 20px auto;
     min-height: 100px;
+}
+
+.font-container {
+    width: 1000px;
+}
+.source-code-pro {
+    font-family: 'Source Code Pro', monospace;
+}
+p.regular.source-code-pro {
+    font-style: normal;
+}
+p.bold.source-code-pro {
+    font-weight: 700;
+}
+p.italic.source-code-pro {
+    font-style: italic;
+}
+
+.font-label {
+    font-size: 20px;
+    text-decoration: underline;
+}
+.font-panel {
+    width: 45%;
+    display: inline-block;
+    margin: 10px auto;
+}
+
+.roboto {
+    font-family: roboto, sans-serif;
+}
+p.regular.roboto {
+    font-style: normal;
+}
+p.bold.roboto {
+    font-weight: 700;
+}
+p.italic.roboto {
+    font-style: italic;
+}
+
+.dm-serif-text {
+    font-family: 'dm-serif-text', serif;
+}
+p.regular.dm-serif-text {
+    font-style: normal;
+}
+p.bold.dm-serif-text {
+    font-weight: 700;
+}
+p.italic.dm-serif-text {
+    font-style: italic;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.text-style-panel h1 {
+    font-weight: 600;
+    font-size:28px;
+    font-family:monospace;
+    background-image: none;
+    text-decoration: none;
+    display: inline;
+    color:#000;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    position:relative;
+    letter-spacing:normal;
+    padding:0%;
+    left:0;
+    margin-top: 10px;
+}
+
+.text-style-panel {
+    padding-top:10px;
+    padding-bottom:0%;
 }
